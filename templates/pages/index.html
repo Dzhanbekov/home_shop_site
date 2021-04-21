@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load humanize %}
 
+{% block title %}Home{% endblock %}
+
 {% block content %}
 <!-- Showcase -->
     <section id="showcase" style="background: url('/static/img/showcase.jpg') no-repeat top center fixed;   min-height: 650px;
@@ -69,6 +71,9 @@
       </div>
     </div>
   </section>
+<br>
+
+    {% include 'partials/_alerts.html' %}
 
   <!-- Listings -->
   <section id="listings" class="py-5">
