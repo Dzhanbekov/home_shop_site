@@ -15,5 +15,5 @@ class Realtor(models.Model):
         return self.name
 
     class Meta:
-        verbose_name = 'Реалтор'
-        verbose_name_plural = 'Реалторы'
+        verbose_name = 'Риелтор'
+        verbose_name_plural = 'Риелторы'
